@@ -12,7 +12,7 @@
 }
 
 body {
-  background: radial-gradient(circle, theme("colors.primary"), theme("colors.secondary"));
+  background: radial-gradient(circle, theme("colors.primary"), theme("colors.secondary")) fixed center/cover;
   font-family: theme("fontFamily.raleway");
 }
 
