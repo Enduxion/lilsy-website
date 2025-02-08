@@ -4,10 +4,10 @@ import SocialMedia from "../components/SocialMedia";
 const Home = () => {
     return (
         <div className="h-screen flex flex-col justify-center items-center text-center px-6 overflow-hidden w-full relative">
-            <h1 className="text-5xl md:text-6xl font-dancing text-highlight z-10 drop-shadow-md">
+            <h1 className="text-5xl md:text-6xl font-dancing text-highlight drop-shadow-md">
                 Handmade with Love
             </h1>
-            <div className="text-lg mt-4 flex flex-col gap-1 items-center z-10" >
+            <div className="text-lg mt-4 flex flex-col gap-1 items-center" >
                 <div>
                     Welcome to <Link className="font-dancing text-xl underline text-highlight" to="/">Lilsy</Link>, a crochet business founded by <Link className="font-dancing text-xl underline text-highlight" to="https://www.instagram.com/niissshhhaa/">Nisha Thapa</Link>
                 </div>
