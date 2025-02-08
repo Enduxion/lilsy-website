@@ -14,6 +14,11 @@
 body {
   background: radial-gradient(circle, theme("colors.primary"), theme("colors.secondary")) fixed center/cover;
   font-family: theme("fontFamily.raleway");
+  color: theme("colors.text");
+}
+
+.btn {
+  @apply px-6 py-2 bg-highlight text-primary rounded-full shadow-md hover:bg-text transition-all duration-150 ease-in-out;
 }
 
 .link {
