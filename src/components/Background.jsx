@@ -30,7 +30,7 @@ const StaticBackground = () => {
     }, []);
 
     return (
-        <div className="absolute top-0 left-0 w-full h-full overflow-hidden pointer-events-none">
+        <div className="top-0 left-0 w-full h-full overflow-hidden pointer-events-none fixed -z-10">
             {iconGrid.map(({ id, Icon, x, y, size, opacity }) => (
                 <Icon
                     key={id}

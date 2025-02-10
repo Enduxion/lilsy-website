@@ -14,7 +14,7 @@ const Home = () => {
                 <div>
                     Explore our collection of handmade crochet pieces. A perfect gift or personal keepsake.
                 </div>
-                <Link className="btn mt-6" to="/product">Browse Products</Link>
+                <Link className="btn mt-6" to="/products">Browse Products</Link>
             </div>
             <SocialMedia />
         </div>
