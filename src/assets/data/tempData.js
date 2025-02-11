@@ -12,6 +12,7 @@ import socks from "../images/socks.jpg";
 
 const products = [
     {
+        id: "1",
         name: "Ruffle Socks",
         price: 499,
         description: "Soft and comfortable socks with a ruffle design. Perfect for winter.",
@@ -22,6 +23,7 @@ const products = [
         image: socks
     },
     {
+        id: "2",
         name: "Crochet Beanie",
         price: 799,
         description: "Handmade crochet beanie to keep you warm and stylish.",
@@ -32,6 +34,7 @@ const products = [
         image: beanie
     },
     {
+        id: "3",
         name: "Chunky Scarf",
         price: 1299,
         description: "Thick and cozy crochet scarf, perfect for winter.",
@@ -42,6 +45,7 @@ const products = [
         image: scarf
     },
     {
+        id: "4",
         name: "Crochet Mittens",
         price: 699,
         description: "Soft and warm handmade mittens for chilly days.",
@@ -52,6 +56,7 @@ const products = [
         image: mittens
     },
     {
+        id: "5",
         name: "Crochet Sweater",
         price: 2499,
         description: "Cozy and stylish crochet sweater for all seasons.",
@@ -62,6 +67,7 @@ const products = [
         image: sweater
     },
     {
+        id: "6",
         name: "Handmade Blanket",
         price: 3499,
         description: "Warm and soft crochet blanket to add charm to your home.",
@@ -72,6 +78,7 @@ const products = [
         image: blanket
     },
     {
+        id: "7",
         name: "Crochet Tote Bag",
         price: 1599,
         description: "Stylish and eco-friendly handmade crochet tote bag.",
@@ -82,6 +89,7 @@ const products = [
         image: toteBag
     },
     {
+        id: "8",
         name: "Crochet Headband",
         price: 499,
         description: "Cute and comfortable crochet headband for everyday wear.",
@@ -92,6 +100,7 @@ const products = [
         image: headband
     },
     {
+        id: "9",
         name: "Crochet Coaster Set",
         price: 899,
         description: "Handmade coaster set to add a rustic touch to your table.",
@@ -102,6 +111,7 @@ const products = [
         image: coasterSet
     },
     {
+        id: "10",
         name: "Crochet Stuffed Toy",
         price: 1299,
         description: "Adorable handmade crochet stuffed toy for kids and adults.",
@@ -112,6 +122,7 @@ const products = [
         image: stuffedToy
     },
     {
+        id: "11",
         name: "Crochet Cardigan",
         price: 2799,
         description: "Beautifully crafted crochet cardigan for a stylish look.",

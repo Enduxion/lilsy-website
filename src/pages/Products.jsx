@@ -1,17 +1,17 @@
+import { Link } from "react-router-dom";
 import { products } from "../assets/data/tempData";
-import StaticBackground from "../components/Background";
 
 const Products = () => {
     return (
-        <div className="p-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mt-10 relative">
+        <div className="page grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-6">
             {products.map((product, index) => (
-                <div key={index} className="border rounded-lg shadow-lg p-4 bg-primary/70">
-                    <img src={product.image} alt={product.name} className="w-full aspect-square object-cover rounded-md contrast-75" />
-                    <h2 className="text-xl font-semibold mt-1">{product.name}</h2>
-                    <p className="text-gray-600">{product.description}</p>
-                    <p className="text-lg font-bold mt-1">Rs. {product.price}</p>
-                    <button className="mt-2 btn">Buy Now</button>
-                </div>
+                <Link key={index} className="border-[1px] border-highlight/30 rounded-lg shadow-lg bg-primary/50 overflow-hidden hover:scale-[99%] duration-150 ease-in-out cursor-pointer" to={`/product/${product.id}`}>
+                    <img src={product.image} alt={product.name} className="w-full aspect-square object-cover contrast-75" />
+                    <div className="px-4 pb-2">
+                        <h2 className="mt-2 font-bold tracking-tight">{product.name}</h2>
+                        <p className="font-bold">Rs. {product.price}</p>
+                    </div>
+                </Link>
             ))}
         </div>
     );
